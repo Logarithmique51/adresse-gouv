@@ -1,8 +1,8 @@
-import  Address  from "../Address";
-import { AddressType, department, HouseNumber } from "../types/address";
-import { Feature } from "../types/api";
+import  Address  from "./Address";
+import { AddressType, department, HouseNumber } from "./types/address";
+import { Feature } from "./types/api";
 
-export class AdressAdapter {
+export default class AdressAdapter {
     static adapt(address: Feature): Address {
 
         return new Address(

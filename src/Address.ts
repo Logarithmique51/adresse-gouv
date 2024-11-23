@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { FeatureCollection } from './types/api';
 import { AddressType, department, HouseNumber } from './types/address';
-import { AdressAdapter } from './util/AddressAdapter';
+import AdressAdapter from './AddressAdapter';
 import haversine from 'haversine-distance'
 
 const base_url = "https://api-adresse.data.gouv.fr";

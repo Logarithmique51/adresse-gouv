@@ -1,12 +1,14 @@
 {
   "name": "adresse-gouv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adresse gouv easy wrapper",
-  "main": "dist/Address.js",
-  "types": "dist/Address.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Logarithmique51/adresse-gouv.git"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc ./src/index.ts && node index.js",
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },

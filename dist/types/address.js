@@ -29,4 +29,3 @@ var SuffixHouseNumber;
     SuffixHouseNumber["A"] = "A";
     SuffixHouseNumber["B"] = "B";
 })(SuffixHouseNumber || (exports.SuffixHouseNumber = SuffixHouseNumber = {}));
-//# sourceMappingURL=address.js.map
