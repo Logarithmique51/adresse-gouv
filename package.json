@@ -1,0 +1,27 @@
+{
+  "name": "adresse-gouv",
+  "version": "1.0.0",
+  "description": "Adresse gouv easy wrapper",
+  "main": "dist/Address.js",
+  "types": "dist/Address.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc ./src/index.ts && node index.js",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "adresse.data.gouv.fr",
+    "data.gouv.fr",
+    "api"
+  ],
+  "author": "LimitlessLogic",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "haversine-distance": "^1.2.3"
+  }
+}

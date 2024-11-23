@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "target": "ES6",                          // Compile to ES6 JavaScript
+      "module": "CommonJS",                      // CommonJS module for Node.js compatibility
+      "outDir": "./dist",                        // Output compiled JavaScript files here
+      "declaration": true,                       // Generate TypeScript declaration files
+      "declarationDir": "./types",               // Where to place the .d.ts files
+      "sourceMap": true,                         // Include source maps for debugging
+      "strict": true,                            // Enable strict mode for better type checking
+      "esModuleInterop": true                    // To handle default imports correctly
+    },
+    "include": [
+      "src/**/*.ts"                              // Include all TypeScript files from the src directory
+    ],
+    "exclude": [
+      "node_modules",                            // Exclude node_modules from compilation
+      "dist"                                     // Exclude the dist directory (output folder)
+    ]
+  }
+  
